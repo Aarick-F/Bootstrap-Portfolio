@@ -1,0 +1,13 @@
+#name {
+	color: #FFF;
+	background-color: #4AAAA5;
+}
+
+.link {
+	font-weight: bold;
+}
+
+.link:hover {
+	color: #4AAAA5;
+	transition: 0.2s;
+}
