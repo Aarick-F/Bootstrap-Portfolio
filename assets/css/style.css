@@ -11,3 +11,11 @@
 	color: #4AAAA5;
 	transition: 0.2s;
 }
+
+.row {
+	margin: 0;
+}
+
+nav {
+	border-bottom: 2px solid #CCC;
+}
