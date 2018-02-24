@@ -16,6 +16,7 @@ body {
 	background-image: url("../images/backdrop2.jpg");
 	filter: grayscale();
 	margin-bottom: 0;
+	height: 100vh;
 }
 
 #content {
@@ -31,4 +32,14 @@ body {
 #footnote {
 	color: #FFF;
 	padding: 10px 0;
+}
+
+.link {
+	color: #FFF;
+	padding: 20px 0 10px 0;
+}
+
+#links {
+	display: flex;
+	justify-content: space-around;
 }
