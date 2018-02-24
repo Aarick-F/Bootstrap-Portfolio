@@ -34,12 +34,65 @@ body {
 	padding: 10px 0;
 }
 
+.myHeader {
+	padding: 20px 0;
+	border-bottom: 5px solid #000;
+}
+
 .link {
 	color: #FFF;
 	padding: 20px 0 10px 0;
 }
 
+.link:hover {
+	color: #F22;
+	transition: 0.3s;
+}
+
 #links {
 	display: flex;
 	justify-content: space-around;
+}
+
+.portfolioItem {
+	height: 250px;
+}
+
+.itemLabel {
+	margin-top: 20px;
+}
+
+.thumbnail img {
+	height: 250px;
+}
+
+.contentSection {
+	margin-top: 40px;
+}
+
+.myInput {
+	width: 40%;
+	border: 2px solid #000;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.fakeInput {
+	height: 200px;
+	width: 50%;
+	border: 2px solid #000;
+	background-color: #FFF;
+}
+
+::placeholder {
+	padding-left: 10px;
+}
+
+@media screen and (max-width: 980px) {
+	#background {
+		height: 100%;
+	}
 }

@@ -9,24 +9,66 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- MY STYLESHEET -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- FONT AWESOME -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-	<!-- BEGIN NAVBAR -->
-	<nav class="navbar navbar-default">
+<!-- BEGIN NAVBAR -->
+<nav class="navbar navbar-default navbar-inverse">
+ <div class="container">
+   <div class="navbar-header">
+     <a class="navbar-brand" href="#">
+       <strong>Aarick Farist</strong>
+     </a>
+   </div>
+   <ul class="nav navbar-nav navbar-right">
+     <li><a href="index.html">About</a></li>
+     <li><a href="portfolio.html">Portfolio</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+ </div>
+</nav>
+<!-- END NAVBAR -->
+<!-- BEGIN CONTENT -->
+<div id="background" class="jumbotron">
   <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        Aarick Farist
-      </a>
+    <div id="content" class="jumbotron">
+    	<h2 class="myHeader"><strong>Contact</strong></h2>
+    	<div class="text-center">
+    		<h3>Name</h3>
+    		<input class="myInput" type="text" placeholder="ex. John Smith">
+    	</div>
+    	<div class="text-center">
+    		<h3>Email</h3>
+    		<input class="myInput" type="text" placeholder="ex. jsmaith@example.com">
+    	</div>
+    	<div class="text-center">
+    		<h3>Email</h3>
+    		<div class="flex">
+    			<div class="fakeInput">
+    				<p>This is another fake message input :/</p>
+    			</div>
+    		</div>
+    	</div>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="index.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
   </div>
-	</nav>
-	<!-- END NAVBAR -->
+ 	</div>
+	<!-- END CONTENT -->
+	<!-- BEGIN FOOTER -->
+	<div class="footer navbar-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<ul id="links" class="text-center"">
+						<li><a href="https://github.com/Aarick-F" target="_blank"><i class="fab fa-github link fa-5x"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/afarist/" target="_blank"><i class="fab fa-linkedin link fa-5x"></i></a></li>
+						<li><a href="https://stackoverflow.com/users/8902821/aarick-f" target="_blank"><i class="fab fa-stack-overflow link fa-5x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END FOOTER -->
 	<!-- BOOTSTRAP JQUERY -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
